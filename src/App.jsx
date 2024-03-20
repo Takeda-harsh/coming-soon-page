@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <div className='sm:mt-10 w-screen h-screen flex flex-col items-center'>
-        <img src='images/logo.svg' className="mt-20 mb-10"/>
+        <img src='/logo.svg' className="mt-20 mb-10"/>
         <p className="text-xl mb-5 md:text-4xl">We are launching <span className="font-bold">soon!</span></p>
         <p className="mb-10 text-sm">Subscribe and get notified</p>
 
@@ -37,7 +37,7 @@ function App() {
           <button className="w-full h-12 rounded-full bg-blue-600 text-white mt-3 mb-16 text-sm md:mb-0 md:order-2 md:mt-0"  onClick={handleSubmit}>Notify Me</button>
         </div>
         <div className='sm:w-full md:w-2/6 md:mt-10 flex flex-col'>
-          <img src='images/illustration-dashboard.png' className='sm:h-72'/>
+          <img src='/illustration-dashboard.png' className='sm:h-72'/>
         </div>
         
         <div className="w-28 mt-20 mb-10 flex flex-row justify-between">
@@ -54,7 +54,7 @@ function App() {
 <footer className="mt-10 mb-10 text-xs">
   <p>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/Takeda-harsh">Kofi A. Akyea</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Takeda-harsh" className="font-bold">Kofi A. Akyea</a>.
   </p>
 </footer>
 
